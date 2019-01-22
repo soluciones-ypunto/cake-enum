@@ -17,8 +17,6 @@ Define your enum lists as follow:
 
 ```php
 
-<?php
-
 // file Model/Enum/SomeList.php
 
 namespace App\Model\Enum;
@@ -50,8 +48,6 @@ class SomeList extends Enum
 Then use them in forms, to display values or to compare then, without using plain strings.
 
 ```php
-
-<?php
 
 // in templates
 // to create select controls
